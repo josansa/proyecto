@@ -44,6 +44,13 @@ public class Calculadora {
         return resultado;
     }
 
+    public double division() {
+        double resultado = (this.num1 / this.num2);
+        if ((num1 < 0) && (num2 < 0)) {
+            Math.abs(resultado);
+        }
+        return resultado;
+    }
 
     // GETTERS & SETTERS
     public double getNum1() {
