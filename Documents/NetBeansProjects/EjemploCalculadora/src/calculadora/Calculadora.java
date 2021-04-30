@@ -36,6 +36,15 @@ public class Calculadora {
         return (this.num1 - this.num2);
     }
 
+    public double multiplicacion() {
+        double resultado = (this.num1 * this.num2);
+        if ((num1 < 0) && (num2 < 0)) {
+            Math.abs(resultado);
+        }
+        return resultado;
+    }
+
+
     // GETTERS & SETTERS
     public double getNum1() {
         return this.num1;
