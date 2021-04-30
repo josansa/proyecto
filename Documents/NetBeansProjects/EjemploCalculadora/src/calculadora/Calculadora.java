@@ -52,6 +52,10 @@ public class Calculadora {
         return resultado;
     }
 
+    public double modulo() {
+        return this.num1 % this.num2;
+    }
+
     // GETTERS & SETTERS
     public double getNum1() {
         return this.num1;
